@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Buoi1 {
     // tổ hợp phím
     // gợi ý code : ctrl + space
@@ -84,8 +86,8 @@ public class Buoi1 {
 //         Thái : ketQua =2; a=2; b=1
 
         // 3 : Câu điều kiện if else
-        int a = 5;
-        int b = 10;
+//        int a = 5;
+//        int b = 10;
 
         // Nếu a > b : a lớn hơn b
         // Nếu a < b : a bé hơn b
@@ -93,16 +95,41 @@ public class Buoi1 {
 
         // {} : scope (phạm vi)
 
-        if (a > b){
-            System.out.println("A lớn hơn B");
-        }else if (a < b){
-            System.out.println("A bé hơn B");
-        }else{
-            System.out.println("A bằng hơn B");
-        }
+//        if (a > b){
+//            System.out.println("A lớn hơn B");
+//        }else if (a < b){
+//            System.out.println("A bé hơn B");
+//        }else{
+//            System.out.println("A bằng hơn B");
+//        }
 
 
+        // Input
+        // Nhập tổng tiền
+        // Nhập mã khách hàng
 
+        // Điều kiện
+        // Khách mới : N
+        // Khách cũ : O
+        // Khách vip : V
+
+        // TH Không đúng mã
+        // Không phải các ký tự trên thì báo ra không tồn tại mã khách hàng
+        // TH đúng mã
+        // N : 2 %
+        // O : 5 %
+        // V : 10%
+
+
+        // Out put
+        // Loại khách hàng : Khách mới
+        // Được giảm 2% trên tổng giá trị sản phẩm
+        // Tổng tiền phải trả : 98000
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập mã khách hàng : ");
+        String text = scanner.nextLine();
+        System.out.println(text);
 
     }
 }
