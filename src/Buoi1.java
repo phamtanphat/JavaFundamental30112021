@@ -4,6 +4,7 @@ public class Buoi1 {
     // tổ hợp phím
     // gợi ý code : ctrl + space
     // không muốn chạy đoạn lệnh (comment code) :  trỏ tới dòng không muốn chạy ctrl + /
+    // Gợi ý sửa lỗi : alt + enter
     public static void main(String[] args) {
 
 //         1 : Khai báo biến (variable) và kiểu dữ liệu (type)
@@ -119,6 +120,7 @@ public class Buoi1 {
         // N : 2 %
         // O : 5 %
         // V : 10%
+        // SV : 15%
 
 
         // Out put
@@ -126,10 +128,35 @@ public class Buoi1 {
         // Được giảm 2% trên tổng giá trị sản phẩm
         // Tổng tiền phải trả : 98000
 
+
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập mã khách hàng : ");
-        String text = scanner.nextLine();
-        System.out.println(text);
+        System.out.print("Nhập tổng tiền : ");
+        int total = scanner.nextInt();
+
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.print("Nhập mã khách hàng: ");
+        String code = scanner2.next();
+
+        int percent = 0;
+        String category = "Chưa đăng ký";
+
+        if (code.equals("N")) {
+            percent = 2;
+            category = "Khách mới";
+        } else if (code.equals("O")) {
+            percent = 5;
+            category = " Khách cũ";
+        } else if (code.equals("V")) {
+            percent = 10;
+            category = "Khách Vip";
+        }else if(code.equals("SV")){
+            percent = 15;
+            category = "Khách Supper Vip";
+        }
+        System.out.println("Loại khách hàng : " + category);
+        System.out.println("Được giảm " + percent + "% trên tổng giá trị sản phẩm");
+        total = ((100 - percent) * total) / 100;
+        System.out.println("Tổng tiền phải trả : " + total);
 
     }
 }
