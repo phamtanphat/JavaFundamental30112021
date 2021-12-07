@@ -62,25 +62,47 @@ public class Buoi1 {
 //         Truong ket qua = 3 , a = 5 , b = 4
 
 
-        int a = 1;
-        int b = 2;
+//        int a = 1;
+//        int b = 2;
+//
+//        int ketQua = a++ - --b + b-- - b++ + a-- - a++;
+//        1 - --b + b-- - b++ + a-- - a++; a = 2 , b = 2
+//        1 - 1 + b-- - b++ + a-- - a++; a = 2 , b = 1
+//        1 - 1 + 1 - b++ + a-- - a++; a = 2 , b = 0
+//        1 - 1 + 1 - 0 + a-- - a++; a = 2 , b = 1
+//        1 - 1 + 1 - 0 + 2 - a++; a = 1 , b = 1
+//        1 - 1 + 1 - 0 + 2 - 1; a = 2 , b = 1
+//         kq 2 , a = 2 , b1
+//
+//        System.out.println("Kết quả " + ketQua);
+//        System.out.println("A " + a);
+//        System.out.println("B " + b);
+//
+//         Bổn : kết quả 1, a=2,b=1
+//         Phuong : a =3 ,b=1 ket qua = 1
+//         Quang : ketQua =2; a=2; b=1
+//         Thái : ketQua =2; a=2; b=1
 
-        int ketQua = a++ - --b + b-- - b++ + a-- - a++;
-        //1 - --b + b-- - b++ + a-- - a++; a = 2 , b = 2
-        //1 - 1 + b-- - b++ + a-- - a++; a = 2 , b = 1
-        //1 - 1 + 1 - b++ + a-- - a++; a = 2 , b = 0
-        //1 - 1 + 1 - 0 + a-- - a++; a = 2 , b = 1
-        //1 - 1 + 1 - 0 + 2 - a++; a = 1 , b = 1
-        //1 - 1 + 1 - 0 + 2 - 1; a = 2 , b = 1
-        // kq 2 , a = 2 , b1
+        // 3 : Câu điều kiện if else
+        int a = 5;
+        int b = 10;
 
-        System.out.println("Kết quả " + ketQua);
-        System.out.println("A " + a);
-        System.out.println("B " + b);
+        // Nếu a > b : a lớn hơn b
+        // Nếu a < b : a bé hơn b
+        // Nếu a == b : a bằng b
 
-        // Bổn : kết quả 1, a=2,b=1
-        // Phuong : a =3 ,b=1 ket qua = 1
-        // Quang : ketQua =2; a=2; b=1
-        // Thái : ketQua =2; a=2; b=1
+        // {} : scope (phạm vi)
+
+        if (a > b){
+            System.out.println("A lớn hơn B");
+        }else if (a < b){
+            System.out.println("A bé hơn B");
+        }else{
+            System.out.println("A bằng hơn B");
+        }
+
+
+
+
     }
 }
