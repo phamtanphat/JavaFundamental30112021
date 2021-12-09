@@ -207,10 +207,41 @@ public class Buoi1 {
         // Duyệt từ 1 -> == 100
         // in ra số chẳn
 
-        for (int i = 1 ; i <= 100 ; i++){
-            if (i % 2 == 0){
-                System.out.println(i);
+//        for (int i = 1 ; i <= 100 ; i++){
+//            if (i % 2 == 0){
+//                System.out.println(i);
+//            }
+//        }
+
+
+
+        // 1 - In ngược 2 mảng
+            // arr1 : 40 , 30 , 20 ,10
+            // arr2 : 3 , 2 , 1
+        // 2 - Tính giá trị
+        // 10
+        // 20
+        // 30
+        // 20
+        // 40
+        // 60
+        // ..
+        // 40
+        // 80
+        // 120
+
+        int[] arrNumbers1 = {10 , 20 , 30 , 40};
+        int[] arrNumbers2 = {1,2,3};
+
+//        for(int i = arrNumbers1.length - 1; i >= 0 ; i--){
+//            System.out.println(arrNumbers1[i]);
+//        }
+
+        for (int i = 0 ; i < arrNumbers1.length ; i++){
+            for (int y = 0 ; y < arrNumbers2.length ; y++){
+                System.out.println(arrNumbers1[i] * arrNumbers2[y] + "");
             }
         }
+
     }
 }
