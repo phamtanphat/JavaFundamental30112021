@@ -129,34 +129,73 @@ public class Buoi1 {
         // Tổng tiền phải trả : 98000
 
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập tổng tiền : ");
-        int total = scanner.nextInt();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Nhập tổng tiền : ");
+//        int total = scanner.nextInt();
+//
+//        Scanner scanner2 = new Scanner(System.in);
+//        System.out.print("Nhập mã khách hàng: ");
+//        String code = scanner2.next();
+//
+//        int percent = 0;
+//        String category = "Chưa đăng ký";
+//
+//        if (code.equals("N")) {
+//            percent = 2;
+//            category = "Khách mới";
+//        } else if (code.equals("O")) {
+//            percent = 5;
+//            category = " Khách cũ";
+//        } else if (code.equals("V")) {
+//            percent = 10;
+//            category = "Khách Vip";
+//        }else if(code.equals("SV")){
+//            percent = 15;
+//            category = "Khách Supper Vip";
+//        }
+//        System.out.println("Loại khách hàng : " + category);
+//        System.out.println("Được giảm " + percent + "% trên tổng giá trị sản phẩm");
+//        total = ((100 - percent) * total) / 100;
+//        System.out.println("Tổng tiền phải trả : " + total);
 
-        Scanner scanner2 = new Scanner(System.in);
-        System.out.print("Nhập mã khách hàng: ");
-        String code = scanner2.next();
 
-        int percent = 0;
-        String category = "Chưa đăng ký";
+        // switch case
 
-        if (code.equals("N")) {
-            percent = 2;
-            category = "Khách mới";
-        } else if (code.equals("O")) {
-            percent = 5;
-            category = " Khách cũ";
-        } else if (code.equals("V")) {
-            percent = 10;
-            category = "Khách Vip";
-        }else if(code.equals("SV")){
-            percent = 15;
-            category = "Khách Supper Vip";
-        }
-        System.out.println("Loại khách hàng : " + category);
-        System.out.println("Được giảm " + percent + "% trên tổng giá trị sản phẩm");
-        total = ((100 - percent) * total) / 100;
-        System.out.println("Tổng tiền phải trả : " + total);
+//        int month = 5;
+//
+//        switch (month){
+//            case 1 :
+//                System.out.println("Quý 1");
+//                break;
+//            case 2 :
+//                System.out.println("Quý 1");
+//                break;
+//            case 3 :
+//                System.out.println("Quý 1");
+//                break;
+//            case 4 :
+//                System.out.println("Quý 2");
+//                break;
+//            case 5 :
+//                System.out.println("Quý 2");
+//                break;
+//        }
+
+        // mảng : array , collection
+
+        // Cách 1 : Tạo ra 1 mảng rỗng nhưng biết trước kích thước mảng
+//        int[] arrNumbers = new int[10];
+
+        // cập nhật value cho phần tử
+//        arrNumbers[0] = 5;
+//
+//        System.out.println("Size " + arrNumbers.length);
+//        System.out.println("Vị trí phần tử thứ 0 " + arrNumbers[0]);
+
+
+        // Cách 2 : Tạo ra mảng và biết trước giá trị các phần tử
+//        int[] arrNumbers2 = {10,20,30,40,50};
+
 
     }
 }
