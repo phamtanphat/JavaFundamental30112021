@@ -197,5 +197,20 @@ public class Buoi1 {
 //        int[] arrNumbers2 = {10,20,30,40,50};
 
 
+        // Vòng lặp : for
+
+        // 0 -> 100
+//        for (int i = 0 ; i < 100 ; i++){
+//            System.out.println(i);
+//        }
+
+        // Duyệt từ 1 -> == 100
+        // in ra số chẳn
+
+        for (int i = 1 ; i <= 100 ; i++){
+            if (i % 2 == 0){
+                System.out.println(i);
+            }
+        }
     }
 }
