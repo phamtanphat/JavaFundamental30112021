@@ -245,12 +245,21 @@ public class Buoi1 {
 
         // vòng lặp while
 
-        int a = 10;
+//        int a = 22;
+//
+//
+//        do {
+//            System.out.println(a);
+//        }while (a < 20);
 
-        while (a < 20){
-            System.out.println(a);
-            a++;
-        }
+
+        int chinhappsoam;
+        do{
+            Scanner scanner = new Scanner(System.in);
+            System.out.println(" Nhap số nguyên âm ");
+            chinhappsoam = scanner.nextInt();
+
+        }while (chinhappsoam < 0);
 
     }
 }
