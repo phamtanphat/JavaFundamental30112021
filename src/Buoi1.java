@@ -230,17 +230,26 @@ public class Buoi1 {
         // 80
         // 120
 
-        int[] arrNumbers1 = {10 , 20 , 30 , 40};
-        int[] arrNumbers2 = {1,2,3};
+//        int[] arrNumbers1 = {10 , 20 , 30 , 40};
+//        int[] arrNumbers2 = {1,2,3};
 
 //        for(int i = arrNumbers1.length - 1; i >= 0 ; i--){
 //            System.out.println(arrNumbers1[i]);
 //        }
 
-        for (int i = 0 ; i < arrNumbers1.length ; i++){
-            for (int y = 0 ; y < arrNumbers2.length ; y++){
-                System.out.println(arrNumbers1[i] * arrNumbers2[y] + "");
-            }
+//        for (int i = 0 ; i < arrNumbers1.length ; i++){
+//            for (int y = 0 ; y < arrNumbers2.length ; y++){
+//                System.out.println(arrNumbers1[i] * arrNumbers2[y] + "");
+//            }
+//        }
+
+        // vòng lặp while
+
+        int a = 10;
+
+        while (a < 20){
+            System.out.println(a);
+            a++;
         }
 
     }
