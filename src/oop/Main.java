@@ -7,8 +7,7 @@ public class Main {
         // heap memory
         Person teo = new Person("Nguyễn Văn Tèo",5);
 
-        System.out.println("Tên : " + teo.name);
-        System.out.println("Tuổi : " + teo.age);
+        System.out.println("Tên : " + teo.upperCaseName());
 
         Person ty = new Person("Nguyễn Văn Tý",5);
     }

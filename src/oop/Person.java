@@ -10,4 +10,10 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+
+    // phương thức : method , function
+    String upperCaseName(){
+        String newName = name.toUpperCase();
+        return newName;
+    }
 }
