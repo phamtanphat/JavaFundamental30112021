@@ -5,6 +5,7 @@ public class Buoi1 {
     // gợi ý code : ctrl + space
     // không muốn chạy đoạn lệnh (comment code) :  trỏ tới dòng không muốn chạy ctrl + /
     // Gợi ý sửa lỗi : alt + enter
+    // Xem tham số truyền vào function : ctrl + p
     public static void main(String[] args) {
 
 //         1 : Khai báo biến (variable) và kiểu dữ liệu (type)
@@ -253,13 +254,13 @@ public class Buoi1 {
 //        }while (a < 20);
 
 
-        int chinhappsoam;
-        do{
-            Scanner scanner = new Scanner(System.in);
-            System.out.println(" Nhap số nguyên âm ");
-            chinhappsoam = scanner.nextInt();
-
-        }while (chinhappsoam < 0);
+//        int chinhappsoam;
+//        do{
+//            Scanner scanner = new Scanner(System.in);
+//            System.out.println(" Nhap số nguyên âm ");
+//            chinhappsoam = scanner.nextInt();
+//
+//        }while (chinhappsoam < 0);
 
     }
 }
