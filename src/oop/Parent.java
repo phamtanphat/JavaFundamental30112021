@@ -14,4 +14,19 @@ public class Parent extends Person {
         super(name, age);
         this.address = address;
     }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+
+    // tính đa hình : kế thừa và có từ khóa override xuất hiện
+    @Override
+    String upperCaseName() {
+        return "Parent " + super.upperCaseName();
+    }
 }
