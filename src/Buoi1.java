@@ -6,6 +6,7 @@ public class Buoi1 {
     // không muốn chạy đoạn lệnh (comment code) :  trỏ tới dòng không muốn chạy ctrl + /
     // Gợi ý sửa lỗi : alt + enter
     // Xem tham số truyền vào function : ctrl + p
+    // Generate code : alt + insert
     public static void main(String[] args) {
 
 //         1 : Khai báo biến (variable) và kiểu dữ liệu (type)

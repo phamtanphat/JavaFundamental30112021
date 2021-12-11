@@ -5,11 +5,15 @@ public class Main {
 
         // 1 object => 1 instance
         // heap memory
-        Person teo = new Person("Nguyễn Văn Tèo",5);
+//        Person teo = new Person("Nguyễn Văn Tèo",5);
+//        teo.setName("");
+//
+//        System.out.println("Tên : " + teo.upperCaseName());
+//
+//        Person ty = new Person("Nguyễn Văn Tý",5);
 
-        System.out.println("Tên : " + teo.upperCaseName());
-
-        Person ty = new Person("Nguyễn Văn Tý",5);
+        Parent dad = new Parent("Mr . A",40,"Quận 10");
+        System.out.println(dad.upperCaseName());
 
         // Tính chất hương đối tượng
 
