@@ -10,5 +10,15 @@ public class Main {
         System.out.println("Tên : " + teo.upperCaseName());
 
         Person ty = new Person("Nguyễn Văn Tý",5);
+
+        // Tính chất hương đối tượng
+
+        // Đóng gói
+        // Kế thừa
+        // Đa hình
+        // Trườu tượng
+
+        // access modifier : phạm vi truy cập
+        // public , private
     }
 }

@@ -2,8 +2,8 @@ package oop;
 
 public class Person {
     // thuộc tính
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     // constructor : phương thức khởi tạo
     public Person(String name , int age){
@@ -15,5 +15,18 @@ public class Person {
     String upperCaseName(){
         String newName = name.toUpperCase();
         return newName;
+    }
+
+    // setter , getter
+    public void setName(String name){
+        if (name.equals("")){
+            System.out.println("Giá trị rỗng");
+        }else{
+            this.name = name;
+        }
+    }
+
+    public String getName(){
+        return name;
     }
 }
