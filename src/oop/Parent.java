@@ -23,7 +23,6 @@ public class Parent extends Person {
         this.address = address;
     }
 
-
     // tính đa hình : kế thừa và có từ khóa override xuất hiện
     @Override
     String upperCaseName() {
