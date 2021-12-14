@@ -1,5 +1,10 @@
 package oop;
 
+import oop.demoabstract.Pizza;
+import oop.demoabstract.PizzaCheese;
+import oop.demoabstract.PizzaStore;
+import oop.demoabstract.PizzaVegetable;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,8 +17,8 @@ public class Main {
 //
 //        Person ty = new Person("Nguyễn Văn Tý",5);
 
-        Parent dad = new Parent("Mr . A",40,"Quận 10");
-        System.out.println(dad.upperCaseName());
+//        Parent dad = new Parent("Mr . A",40,"Quận 10");
+//        System.out.println(dad.upperCaseName());
 
         // Tính chất hương đối tượng
 
@@ -24,5 +29,9 @@ public class Main {
 
         // access modifier : phạm vi truy cập
         // public , private
+
+
+        PizzaStore pizzaStore = new PizzaStore();
+        pizzaStore.orderPizza(new PizzaVegetable());
     }
 }
