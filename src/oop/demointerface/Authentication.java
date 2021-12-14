@@ -17,4 +17,5 @@ public class Authentication implements Resource{
     public void fail() {
         System.out.println("fail");
     }
+
 }
